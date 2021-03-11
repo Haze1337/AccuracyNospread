@@ -23,7 +23,7 @@ public void OnPluginStart()
 	
 	AutoExecConfig();
 	
-	Handle hGameData = LoadGameConfigFile("Nospread.games");
+	Handle hGameData = LoadGameConfigFile("NoSpread.games");
 	if(!hGameData)
 	{
 		delete hGameData;
